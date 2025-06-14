@@ -1,11 +1,13 @@
 import { styles } from "./styles";
 import { colors } from "@/styles/colors";
-import { Info } from "@/components/info";
-import { Flight } from "@/components/flight";
 import { Ionicons } from "@expo/vector-icons";
+import { ImageBackground, Text, View } from "react-native";
+
 import QRCode from "react-native-qrcode-svg";
 import Svg, { Line, Circle } from "react-native-svg";
-import { ImageBackground, Text, View } from "react-native";
+
+import { Info } from "@/components/info";
+import { Flight } from "@/components/flight";
 
 export function Home() {
   const coverPng = require("@/assets/lynx.jpg");
